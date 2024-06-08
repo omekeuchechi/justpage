@@ -1,0 +1,119 @@
+@import url("fontawesome-free-6.5.2-web/webfonts/fa-brands-400.woff2");
+
+*{
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "woff2";
+}
+.bolk{
+  background: crimson;
+  font-family: 'Gill Sans';
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+}
+.btn{
+  width: max-content;
+  margin-left: 29px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.pic{
+  border: 1px solid black;
+  border-left: none;
+  border-bottom: none;
+}
+li a{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+  text-decoration: none;
+}
+button{
+  background: black;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90px;
+}
+button a{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+}
+#vi{
+  color: white;
+}
+#yi{
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .bolk{
+  background: crimson;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri';
+  padding-right: 10px;
+  padding-left: 10px;
+}
+button{
+  background: black;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 50px;
+}
+button a{
+  font-size: 6px;
+}
+#vi{
+  margin-left: 200px;
+  background: black;
+  border-radius: 8px;
+  padding: 10px;
+  width: 70px;
+}
+#yi{
+  margin-left: 200px;
+  background: black;
+  border-radius: 8px;
+  padding: 10px;
+  width: 70px;
+}
+.logo{
+  font-size: 22px;
+  font-weight: 600;
+}
+  }
+  
+  @media (min-width: 768px) {
+      .bolk{
+  background: crimson;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri';
+  padding-right: 12px;
+  padding-left: 12px;
+}
+button{
+  background: black;
+  margin-right: 90px;
+  border-radius: 5px;
+  padding: 6px;
+  width: 58px;
+}
+button a{
+  font-size: 7px;
+}
+}

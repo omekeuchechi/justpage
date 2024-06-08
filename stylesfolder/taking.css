@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fa-robot{
+    margin-top: 20%;
+    padding-left: 75px;
+}
+.colume{
+    margin: 0px auto;
+    background-color: transparent;
+    width: max-content;
+    padding-left: 40px;
+    margin-top: 200px;
+}
+.input,#talk{
+    background-color: rgb(33, 33, 61);
+    color: white;
+}
+.input{
+    width: 90%;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+}
+#talk{
+    margin-left: 150px;
+    border: none;
+}
+.content{
+    text-align: center;
+}
+.input:hover{
+    background-color: rgb(50, 40, 69);
+    box-shadow: 2px 2px 2px 2px rgba(179, 165, 90, 0.938);
+}
+#talk:hover{
+    background-color: rgb(33, 33, 61);
+}
+.fa-unity{
+    margin-left: 150px;
+    padding: 10px;
+}
