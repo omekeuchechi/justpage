@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+:root{
+    --font-color: #fff;
+    --font-color-1: #cf2121;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(150deg, blue 80px, rgb(226, 77, 18), #d33a3a, blue);
+}
+.container-fluid{
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 0 auto;
+    box-shadow: 0 4px rgba(192, 186, 186, 0.8);
+}
+.navdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+.navdiv ul li a{
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 500;
+    margin-right: 25px;
+    color: rebeccapurple;
+    margin-left: 90px;
+}
+.logo{
+    color: var(--font-color-1);
+    margin-right: 90px;
+    text-align: start;
+}

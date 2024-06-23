@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="music.css">
+            <!--bootstrap-->
+            <link rel="stylesheet" href="bootstrap-5.0.2/bootstrap-5.0.2/dist/css/bootstrap.min.css" />
+
+            <link rel="stylesheet" href="bootstrap-5.0.2/bootstrap-5.0.2/dist/css/bootstrap-grid.css" />
+            <link rel="stylesheet" href="bootstrap-5.0.2/bootstrap-5.0.2/dist/css/bootstrap-reboot.css" />
+             <link rel="stylesheet" href="bootstrap-5.0.2/bootstrap-5.0.2/dist/css/bootstrap-utilities.css" />
+            <!--fontawesome link load local-->
+    
+             <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    
+             <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/brands.css">
+             <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/fontawesome.css">
+             <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/regular.css">
+             <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/solid.css">
+             <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/svg-with-js.css">
+             <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/v4-font-face.css">
+             <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/v4-shims.css">
+             <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/v5-font-face.min.css">
+</head>
+<body>
+    <div class="container-1">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fas fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+            <img src="pic/lovingcolors.png" alt="" class="song-img">
+            <h1>Zome Zome Zome</h1>
+            <p>Cheque-Zoom-(JustNaija.com).mp3</p>
+
+<!-- ================================audio========================================== -->
+<audio id="song">
+    <source src="mp3/Cheque-Zoom-(JustNaija.com).mp3" type="audio/mpeg">
+ </audio>
+ <input type="range" value="0" id="progress">
+
+ <div class="controls">
+    <div>
+        <i class="fas fa-backward"></i>
+    </div>
+    <div onclick="playPause()">
+        <i class="fas fa-play" id="ctrlicon"></i>
+    </div>
+    <div>
+        <i class="fas fa-forward"></i>
+    </div>
+ </div>
+        </div>
+    </div>
+
+
+    <script src="music.js"></script>
+</body>
+</html>
