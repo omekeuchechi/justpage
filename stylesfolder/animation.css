@@ -122,3 +122,8 @@ body{
     background-color: rgb(153, 87, 87);
     clip-path: polygon(13% 20%, 10% 69%, 1% 1%);
 }
+.lov{
+    text-decoration: none;
+    padding: 4 auto;
+    border: 1px solid green;
+}
