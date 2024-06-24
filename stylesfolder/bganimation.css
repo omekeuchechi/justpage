@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cobic-function: cubic-bezier(0.4, 0, 1, 1);
+    --cubic-function-1: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    --cubic-function-2: cubic-bezier(0.18, 0.4, 0.61, 3.28);
+    --timeing-function-1: ease-in-out;
+    --timeing-function-2: ease;
+    --timeing-function-3: linear;
+    --linear-function-1: linear(0.42 59.8%, 1 100%);
+    --linear-function-2: linear(0 0%, 1.08 55.88%);
+    --cubic-function-2: cubic-bezier(0.71,-0.52, 0.65, 1.71);
+}
+section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.pattern{
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    animation: animatebg 10s ease-in-out infinite;
+}
+.pattern .face{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: url("../pic/daknight.jpg");
+    background-size: 100px 100px;
+    animation: animate 1s linear infinite;
+}
+@keyframes animatebg {
+    0%,100%{
+        transform: scale(1.6) rotate(-15deg);
+    }
+    50%{
+        transform: scale(1.6) rotate(15deg);
+    }
+}
+@keyframes animate {
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 100px;
+    }
+}
+.pattern .face.face2{
+    height: 100vh;
+    transform-origin: top;
+    transform: rotateX(70deg);
+}
+.pattern .face1:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 125px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5),transparent);
+}
+.pattern .face1:before{
+    content: '';
+    position: absolute;
+    bottom: top;
+    left: 0;
+    width: 100%;
+    height: 125px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.5),transparent);
+}
