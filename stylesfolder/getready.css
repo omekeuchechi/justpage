@@ -86,3 +86,13 @@ body{
     margin-left: 140px;
     background: var(--bg-color1);
 }
+.skew{
+    background: url("../pic/360_F_722708199_ES55XR9baQeqdp5R6y9NWYEQeYNZukts.jpg");
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 30px;
+    background-size: cover;
+    transform: skewY(260deg);
+}

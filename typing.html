@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .content{
+            /* width: 100%; */
+            height: 100vh;
+            display: grid;
+            color: #fff;
+            font-size: 2rem;
+            grid-template-areas: 'NavBar NavBar NavBar'
+                                'box1 box1 box2'
+                                'box3 box4 box5'
+                                'box6 box6 box6'
+                                'footer footer footer';
+                                grid-template-columns: 0.8fr 1fr 1fr;
+                                grid-template-rows: 0.8fr 2.5fr 1.5fr 0.8fr;
+                                grid-gap: .6rem;
+                                text-align: center;
+        }
+        nav{
+            background: crimson;
+            grid-area: NavBar;
+        }
+        .box1{
+            background: blue;
+            grid-area: box1;
+        }
+        .box2{
+            background: green;
+            grid-area: box2;
+        }
+        .box3{
+            background: gold;
+            grid-area: box3;
+        }
+        .box4{
+            background: violet;
+            grid-area: box4;
+        }
+        .box5{
+            background: violet;
+            grid-area: box5;
+        }
+        .box6{
+            background: lime;
+            grid-area: box4;
+        }
+        footer{
+            background: #000;
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <nav>nav</nav>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+    <footer>footer</footer>
+</div>
+</body>
+</html>

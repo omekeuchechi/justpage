@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Georgia, Times, 'Times New Roman', serif;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+    .nav{
+    background: #0082e6;
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+.nav ul{
+    float: right;
+    margin-right: 20px;
+}
+.nav ul li{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    line-height: 60px;
+    margin: 0 60px;
+}
+.nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+.cardBox{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  /* grid-template-columns: repeat(, 1fr); */
+  /* grid-row: auto; */flex-direction: row;
+}
+.cardBox .card{
+  position: relative;
+  background: var(--white);
+  padding: 30px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 40%;
+  height: 900%;
+}
+.cardBox .card .number{
+  position: relative;
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: var(--blue);
+}
+.cardBox .card .cardName{
+  color: var(--black1);
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+.cardBox .card .iconBx{
+  font-size: 3.5rem;
+  color: var(--black1);
+}
+.cardBox .card:hover{
+  background: var(--blue);
+}
+#sub-1{
+    width: 50%;
+    height: 200%;
+}
+.content{
+    margin: 0 auto;
+}
+.content .card{
+    width: 300%;
+    height: 140%;
+}
+#di{
+    position: relative;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">OMEKE</div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Content</a></li>
+        </ul>
+    </div>
+    <div class="cardBox">
+        <div class="card" id="sub-1">
+            <div>
+                <div class="numbers">1.5%</div>
+                <div class="cardName">Daily view</div>
+            </div>
+      
+            <div class="iconBx">
+                <i class="fa fa-eye"></i>
+            </div>
+        </div>
+      
+        <!-- ++++++++++++++++++++++++++++card+++++++++++++++++++++++++++++++++++ -->
+        <div class="content">
+        <div class="card">
+                <div>
+                    <div class="numbers">80</div>
+                    <div class="cardName">Sales</div>
+                </div>
+      
+                <div class="iconBx">
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+            </div>
+      
+            <!-- ++++++++++++++++++++++++++++card+++++++++++++++++++++++++++++++++++ -->
+        <div class="card">
+            <div>
+                <div class="numbers">240</div>
+                <div class="cardName">Comments</div>
+            </div>
+      
+            <div class="iconBx">
+                <i class="fa fa-comments"></i>
+            </div>
+        </div>
+        
+    </div>
+    <div class="card" id="di">
+        <h1>goodbye</h1>
+    </div>
+        <!-- ++++++++++++++++++++++++++++card+++++++++++++++++++++++++++++++++++ -->
+            <!-- <div class="card">
+                <div>
+                    <div class="numbers">$7.239</div>
+                    <div class="cardName">Earning</div>
+                </div>
+      
+                <div class="iconBx">
+                    <i class="fa fa-money"></i>
+                </div>
+            </div>
+        </div> -->
+      
+      
+      
+
+</body>
+</html>

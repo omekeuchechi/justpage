@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        *::before,
+        *::after{
+            box-sizing: border-box;
+            padding: 0;
+        }
+        body{
+            /* overflow: hidden; */
+            background: #d1c0c0;
+            /* align-items: center; */
+            /* justify-content: center; */
+            /* display: flex; */
+            line-height: 3.6;
+        }
+        :where(h1, h2, h3, h4, h5, h6, p){
+            margin: 0;
+            color: red;
+            text-align: center;
+        }
+        /* .wrapper{
+            background: #fff;
+            width: 60vw;
+            padding: 2em;
+            margin: 3rem auto;
+        } */
+        /* ======================grid========================= */
+        .wrapper1{
+            background: #fff;
+            width: 60vw;
+            padding: 2em;
+            margin: 3rem auto;
+        }
+        /* =====================col===================
+        .even .col{
+            background-color: #d1c0c0;
+            padding: 3em;
+            /* margin-left: 200px; */
+            /* border: 1px solid black; */
+       /* }
+        .even{
+            display: flex;
+        }
+        .even >*{
+            flex-basis: 100%;
+        } */
+        .grid .col{
+            background-color: #d1c0c0;
+            padding: 3em;
+            /* margin-left: 200px; */
+            border: 1px solid black;
+        }
+        .grid{
+            display: flex;
+        }
+        .grid > *{
+            flex: 1 1 33%;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <h1>even-columns</h1>
+    <div class="even">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+    </div>
+<!-- ======================gridishes============================ -->
+    <div class="wrapper1">
+        <h1>gridishes</h1>
+        <div class="grid">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+</div>
+</body>
+</html>

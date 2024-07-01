@@ -34,7 +34,9 @@ function generateBotMessage(message) {
     "help": "sure how can i assist you today",
     "movie": "i'm program to give you previous code being stored in the server",
     "book": "i'm program to give you previous code being stored in the server",
-    "music": "i'm program to give you previous code being stored in the server"
+    "music": "i'm program to give you previous code being stored in the server",
+    "what is php": "php stands for hypertext preprocessor",
+    "what is gdscript": "gdscript stands for godot script used in godot game engine"
   };
 
   let response = "I'm sorry, I don't understand.";
