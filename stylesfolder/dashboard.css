@@ -29,7 +29,7 @@ body{
   transition: 0.5s;
   overflow: hidden;
 }
-.navigation.active{
+.container.active{
   width: 80px;
 }
 .navigation ul{

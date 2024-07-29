@@ -10,7 +10,7 @@ function speak(text) {
    window.speechSynthesis.speak(text_speak);
 }
 
-let onesTime = ['monday', 'tusday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
+let onesTime = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
 console.table(onesTime);
 
 function giveMeDate(){
@@ -50,7 +50,7 @@ function wiseMe(){
     }
 
     else if (hour>=12 && hour<17) {
-        speak("Good Aftenoon Omeka JOSEPH UCHECHI AI ASSISTANT GREATING...");
+        speak("Good Aftenoon Omeka JOSEPH UCHECHI AI ASSISTANT GREETING...");
         speak( "the time is"+ day.getTime()+"thank you");
     }
 

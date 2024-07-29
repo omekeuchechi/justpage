@@ -94,5 +94,5 @@ body{
     position: relative;
     top: 30px;
     background-size: cover;
-    transform: skewY(260deg);
+    transform: skewY(2deg);
 }
